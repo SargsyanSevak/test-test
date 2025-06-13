@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div className="w-full h-[3000px] flex flex-col gap-20 bg-black p-10">
+    <div className="w-full h-[3000px] flex flex-col gap-20 bg-gray-800 p-10">
       <div className="text-white pt-[200px]">
-          <p className="max-w-[700px] text-[18px] !antialiased">
+          <p className="max-w-[700px] text-[20px] leading-[30px] font-bold">
             Transform your business ideas into powerful digital solutions withs
             our trusted offshore development team. We deliver high quality
             software development at competitive rates while ensuring quality and
@@ -18,7 +18,7 @@ export default function Home() {
           className="w-fit"
         >
           <button
-            className="w-[196px] h-[56px] mt-4 bg-white"
+            className="w-[196px] h-[56px] text-[20px] font-bold mt-4 bg-white"
           >
             Book a Call
           </button>
